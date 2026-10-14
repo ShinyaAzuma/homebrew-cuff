@@ -17,7 +17,7 @@ cask "cuff-agent" do
 
   # 更新はアプリの Sparkle が行う
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "Cuff Agent.app"
